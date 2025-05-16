@@ -517,3 +517,14 @@
 .footer .copyright a:hover {
     color: var(--primary);
 }
+
+
+/* .index_strarting_section{
+
+    background-color: rgba(0, 0, 0, 0.568);
+} */
+
+.index_strarting_section {
+    background-color: rgba(0, 0, 0, 0.6); 
+              
+} 
