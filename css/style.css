@@ -519,12 +519,69 @@
 }
 
 
-/* .index_strarting_section{
 
-    background-color: rgba(0, 0, 0, 0.568);
-} */
 
 .index_strarting_section {
     background-color: rgba(0, 0, 0, 0.6); 
               
-} 
+} @media (max-width:768px) {
+
+    .card_section {
+        margin-bottom: 20px !important;
+
+    }
+}
+
+
+
+.card_section h5, p {
+padding: 10px;
+
+}
+.card_section  img {
+   padding: 20px ; 
+
+}
+.card:hover {
+    transform: translateY(-10px) ;
+  }
+
+  .treatment_section{
+background: #dee8e9;
+padding-top: 50px;
+padding-bottom: 50px;
+  }
+  /* .card_section img:hover{
+    transform: translateX(-10px);
+  } */
+  .card{
+    box-shadow: 1px 3px 6px  rgb(53, 51, 51);
+  }
+
+
+
+
+
+      /* Enable hover dropdown */
+      .nav-item.dropdown:hover .dropdown-menu {
+          display: block;
+      }
+
+      /* Optional: smooth transition */
+      .dropdown-menu {
+          transition: all 0.3s ease;
+          margin-top: 0;
+      }
+
+      /* Ensure parent link remains clickable */
+      .nav-item.dropdown>.nav-link::after {
+          display: none;
+          /* optional: hide Bootstrap's default toggle arrow if you want */
+      }
+
+      @media (min-width: 992px) {
+        .nav-item.dropdown:hover .dropdown-menu {
+          display: block;
+        }
+      }
+
